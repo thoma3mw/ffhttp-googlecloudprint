@@ -77,7 +77,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 	/**
 	 * Constructor
 	 */
-	public ffhttp_GoogleCloudPrint(ffhttp_Client.Credentials credentials) 
+	public ffhttp_GoogleCloudPrint(ffhttp_Client.AccessTokenCredentials credentials) 
 	{ 
 		this.setCredentials(credentials);
 	}
