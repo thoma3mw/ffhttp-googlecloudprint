@@ -142,7 +142,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		 */
 		public String getJobId()
 		{
-			return getParam('jobid', true);
+			return getParam('jobid', '');
 		}
 		public DeleteJobRequest setJobId(String jobid)
 		{
@@ -163,7 +163,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		 */
 		public String getPrinterId()
 		{
-			return getParam('printerid', true);
+			return getParam('printerid', '');
 		}
 		public JobsRequest setPrinterId(String printerId)
 		{
@@ -172,7 +172,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		}
 		public String getOwner()
 		{
-			return getParam('owner', true);
+			return getParam('owner', '');
 		}
 		public JobsRequest setOwner(String owner)
 		{
@@ -181,7 +181,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		}
 		public String getStatus()
 		{
-			return getParam('status', true);
+			return getParam('status', '');
 		}
 		public JobsRequest setStatus(String status)
 		{
@@ -190,7 +190,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		}
 		public String getQ()
 		{
-			return getParam('q', true);
+			return getParam('q', '');
 		}
 		public JobsRequest setQ(String q)
 		{
@@ -199,7 +199,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		}
 		public String getOffset()
 		{
-			return getParam('offset', true);
+			return getParam('offset', '');
 		}
 		public JobsRequest setOffset(String offset)
 		{
@@ -208,7 +208,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		}
 		public String getLimit()
 		{
-			return getParam('limit', true);
+			return getParam('limit', '');
 		}
 		public JobsRequest setLimit(String limitStr)
 		{
@@ -217,7 +217,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		}
 		public String getSortOrder()
 		{
-			return getParam('sortorder', true);
+			return getParam('sortorder', '');
 		}
 		public JobsRequest setSortOrder(String sortOrder)
 		{
@@ -239,7 +239,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		 */
 		public String getPrinterId()
 		{
-			return getParam('printerid', true);
+			return getParam('printerid', '');
 		}
 		public PrinterRequest setPrinterId(String printerId)
 		{
@@ -257,7 +257,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		}
 		public String getExtraFields()
 		{
-			return getParam('extra_fields', true);
+			return getParam('extra_fields', '');
 		}
 		public PrinterRequest setExtraFields(String extraFields)
 		{
@@ -278,7 +278,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		 */
 		public String getQ()
 		{
-			return getParam('q', true);
+			return getParam('q', '');
 		}
 		public SearchRequest setQ(String q)
 		{
@@ -287,7 +287,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		}
 		public String getType()
 		{
-			return getParam('type', true);
+			return getParam('type', '');
 		}
 		public SearchRequest setType(String type)
 		{
@@ -296,7 +296,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		}
 		public String getConnectionStatus()
 		{
-			return getParam('connection_status', true);
+			return getParam('connection_status', '');
 		}
 		public SearchRequest setConnectionStatus(String connectionStatus)
 		{
@@ -314,7 +314,7 @@ public with sharing class ffhttp_GoogleCloudPrint extends ffhttp_Client.Abstract
 		}
 		public String getExtraFields()
 		{
-			return getParam('extra_fields', true);
+			return getParam('extra_fields', '');
 		}
 		public SearchRequest setExtraFields(String extraFields)
 		{
